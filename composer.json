@@ -12,7 +12,8 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.5",
         "nwidart/laravel-modules": "^2.7",
-        "spatie/laravel-permission": "^2.37"
+        "spatie/laravel-permission": "^2.37",
+	"omeripek/question": "~1.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -59,16 +60,10 @@
         "optimize-autoloader": true
     },
     "repositories": [
-    {
-      "type": "package",
-      "package": {
+   {
         "name": "omeripek/question",
-        "source": {
-          "url": "git@github.com:omeripek/question.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+        "type": "vcs",
+        "url": "https://github.com/omeripek/question"
     }
-],
+]
 }
